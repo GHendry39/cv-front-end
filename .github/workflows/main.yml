@@ -11,8 +11,6 @@ jobs:
 
       - name: Cypress tests
         uses: cypress-io/github-action@v6
-        with:
-          working-directory: front-end/
 
       - name: Deploy
         uses: reggionick/s3-deploy@v4
