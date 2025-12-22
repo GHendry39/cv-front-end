@@ -1,0 +1,15 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "Front end for CV website",
+  "license": "ISC",
+  "author": "Graeme Hendry",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^15.8.1"
+  }
+}
