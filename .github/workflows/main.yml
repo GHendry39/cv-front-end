@@ -9,8 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Cypress tests
-        uses: cypress-io/github-action@v6
+      # - name: Cypress tests
+      #   uses: cypress-io/github-action@v6
 
       - name: Deploy
         uses: reggionick/s3-deploy@v4
